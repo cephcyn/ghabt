@@ -161,7 +161,10 @@ export default function App() {
             Experiments and Results
           </Typography>
           <Typography gutterBottom>
-            TODO write a paragraph for related work if there's any that we reference, otherwise remove this card
+            TODO write description of the actual comparisons we made
+          </Typography>
+          <Typography gutterBottom>
+            TODO summarize our results
           </Typography>
         </Paper>
       </Paper>
