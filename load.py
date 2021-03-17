@@ -1,4 +1,5 @@
 import torch
+import torch.nn as nn
 from subprocess import Popen
 from pathlib import Path
 from PIL import Image
@@ -31,6 +32,16 @@ def load_cifar_test():
     for example in open('cifar.test', 'r'):
         examples.append(torch.unsqueeze(tensorize(Image.open(example.rstrip())), 0))
         labels.append(torch.LongTensor([possible_labels[example[example.find('_') + 1 : example.find(".")]]]))
+    return examples, labels
+
+def load_perturbations():
+    possible_labels = load_possible_labels()
+    examples = []
+    labels = []
+    tensorize = transforms.ToTensor()
+    for example in open('cifar.perturbations', 'r'):
+        examples.append(torch.unsqueeze(tensorize(Image.open(example.rstrip())), 0))
+        labels.append(torch.LongTensor([possible_labels[example[example.find('_') + 1 : example.find('.')]]]))
     return examples, labels
 
 def pertube_images(model, examples, labels, pertubations, eps, lr, epochs):
