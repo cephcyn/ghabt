@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ghabt/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/ghabt/static/js/main.43a28392.chunk.js",
-    "main.js.map": "/ghabt/static/js/main.43a28392.chunk.js.map",
+    "main.js": "/ghabt/static/js/main.a82d1cac.chunk.js",
+    "main.js.map": "/ghabt/static/js/main.a82d1cac.chunk.js.map",
     "runtime-main.js": "/ghabt/static/js/runtime-main.155b817e.js",
     "runtime-main.js.map": "/ghabt/static/js/runtime-main.155b817e.js.map",
     "static/css/2.edab3a1b.chunk.css": "/ghabt/static/css/2.edab3a1b.chunk.css",
@@ -14,21 +14,15 @@
     "static/css/2.edab3a1b.chunk.css.map": "/ghabt/static/css/2.edab3a1b.chunk.css.map",
     "static/css/main.6dea0f05.chunk.css.map": "/ghabt/static/css/main.6dea0f05.chunk.css.map",
     "static/js/2.a062b0ab.chunk.js.LICENSE.txt": "/ghabt/static/js/2.a062b0ab.chunk.js.LICENSE.txt",
-    "static/media/example-awwnime.c9577563.png": "/ghabt/static/media/example-awwnime.c9577563.png",
-    "static/media/example-dogelore.7de12bf1.png": "/ghabt/static/media/example-dogelore.7de12bf1.png",
-    "static/media/example-tumblr.88a44889.png": "/ghabt/static/media/example-tumblr.88a44889.png",
-    "static/media/model_chart.56d9d808.png": "/ghabt/static/media/model_chart.56d9d808.png",
     "static/media/motivational-leo-v1.ef976b8d.png": "/ghabt/static/media/motivational-leo-v1.ef976b8d.png",
-    "static/media/motivational-leo-v2.7c71dc7b.png": "/ghabt/static/media/motivational-leo-v2.7c71dc7b.png",
-    "static/media/index.css": "/ghabt/static/media/roboto-vietnamese-400-normal.52cebac0.woff2",
-    "static/media/stats-image.5285c4b1.png": "/ghabt/static/media/stats-image.5285c4b1.png",
-    "static/media/stats-language.e8c3434a.png": "/ghabt/static/media/stats-language.e8c3434a.png"
+    "static/media/previous_work.f3c920e6.png": "/ghabt/static/media/previous_work.f3c920e6.png",
+    "static/media/index.css": "/ghabt/static/media/roboto-vietnamese-400-normal.52cebac0.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.155b817e.js",
     "static/css/2.edab3a1b.chunk.css",
     "static/js/2.a062b0ab.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.43a28392.chunk.js"
+    "static/js/main.a82d1cac.chunk.js"
   ]
 }
