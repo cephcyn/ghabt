@@ -83,7 +83,7 @@ export default function App() {
           Bullying Models with Perturbation
         </Typography>
         <Typography variant="h4">
-          Which model architectures stand up the best to adversarial image perturbation.
+          Which model architectures stand up the best to adversarial image perturbation?
         </Typography>
       </Paper>
       <Paper className={classes.panel}>
@@ -239,6 +239,11 @@ export default function App() {
             Compared to other studies, we examined the architecture of the model being attacked instead of the architecture of the attack or method of generating adversarial examples itself. This means we address an aspect of adversarial input attacks that other surveys have not examined in detail, which is overall beneficial. However, as mentioned in our discussion of future steps, it would be very interesting to do a multi-dimensional analysis studying interaction of different attack methods and attacked model architectures together as well.
           </Typography>
         </Paper>
+      </Paper>
+      <Paper className={classes.panel}>
+        <Typography gutterBottom>
+	  Check out our GitHub repo at <a href="https://github.com/cephcyn/ghabt">https://github.com/cephcyn/ghabt</a>!!
+	</Typography>
       </Paper>
     </Container>
   );
