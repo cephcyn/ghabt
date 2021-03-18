@@ -1,6 +1,6 @@
 # ghabt
 
-"GANna Have A Bad Time": Final project for CSE455 2021WI (Computer Vision)
+"Bullying Models with Perturbation" (secret name "GANna Have A Bad Time"): Final project for CSE455 2021WI (Computer Vision)
 
 View our demo page here! https://cephcyn.github.io/ghabt/
 
